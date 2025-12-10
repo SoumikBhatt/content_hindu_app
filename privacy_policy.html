@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
     <title>Privacy Policy - Bhakti365</title>
     <style>
         * {
@@ -10,65 +12,106 @@
             padding: 0;
             box-sizing: border-box;
         }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 16px;
-            background-color: #FFF8F5;
+
+        :root {
+            --bg-color: #FFF8F5;
+            --text-color: #221A14;
+            --section-bg: #FBEBE1;
+            --section-title: #88511D;
+            --section-content: #221A14;
+            --app-title: #88511D;
+            --version-info: #88511D80;
         }
+
+        [data-theme="dark"] {
+            --bg-color: #19120C;
+            --text-color: #EFE0D6;
+            --section-bg: #261E184C;
+            --section-title: #FFB77C;
+            --section-content: #EFE0D6;
+            --app-title: #FFB77C;
+            --version-info: #FFB77C80;
+        }
+
+        body {
+            font-family: 'Laila', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 16px;
+        }
+
         .section {
-            background: #FBEBE1;
+            background: var(--section-bg);
             border-radius: 12px;
             padding: 20px;
             margin-bottom: 16px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         .section-title {
-            font-size: 18px;
+            color: var(--section-title);
+            font-size: 20px;
             font-weight: 600;
-            color: #88511D;
             margin-bottom: 12px;
         }
+
         .section-content {
+            color: var(--section-content);
             font-size: 15px;
-            color: #221A14;
             text-align: justify;
         }
-        .last-updated {
+
+        .app-title {
+            color: var(--app-title);
+            font-size: 28px;
+            font-weight: 700;
             text-align: center;
-            color: #221A14;
+            margin-bottom: 8px;
+        }
+
+        .version-info {
+            color: var(--version-info);
+            text-align: center;
             font-size: 14px;
             margin-bottom: 24px;
         }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+
+        a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: var(--text-color);
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
         .intro {
-            background: #FBEBE1;
+            background: var(--section-bg);
             border-radius: 12px;
             padding: 20px;
             margin-bottom: 16px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #19120C;
-                color: #e0e0e0;
-            }
-            .section,
-            .intro {
-                background: #261E184C;
-            }
-            .section-title {
-                color: #FFB77C;
-            }
-            .section-content {
-                color: #EFE0D6;
-            }
-            .last-updated {
-            color: #EFE0D6;
-        }
-        }
     </style>
 </head>
+
 <body>
     <p class="last-updated">Last Updated: December 10, 2025</p>
     <div class="intro">
@@ -208,4 +251,5 @@
         </p>
     </div>
 </body>
+
 </html>
