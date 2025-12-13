@@ -14,23 +14,26 @@
         }
 
         :root {
-            --bg-color: #FFF8F5;
+            --bg-color: #FFF8F0;
             --text-color: #221A14;
-            --section-bg: #FBEBE1;
-            --section-title: #88511D;
+            --section-bg: rgba(243, 223, 210, 0.5);
+            --section-title: #D86D00;
             --section-content: #221A14;
-            --app-title: #88511D;
-            --version-info: #88511D80;
+            --app-title: #D86D00;
+            --version-info: #D86D004C;
+            --section-border: rgba(214, 195, 182, 0.5);
         }
 
         [data-theme="dark"] {
-            --bg-color: #19120C;
+            --bg-color: #0F0F1B;
+            /* Corrected to match backgroundDark */
             --text-color: #EFE0D6;
-            --section-bg: #261E184C;
+            --section-bg: rgba(81, 68, 59, 0.5);
             --section-title: #FFB77C;
             --section-content: #EFE0D6;
             --app-title: #FFB77C;
-            --version-info: #FFB77C80;
+            --version-info: #FFB77C4C;
+            --section-border: rgba(81, 68, 59, 0.5);
         }
 
         body {
@@ -42,10 +45,12 @@
 
         .section {
             background: var(--section-bg);
-            border-radius: 12px;
-            padding: 20px;
+            border-radius: 24px;
+            border: 1px solid var(--section-border);
+            padding: 16px;
             margin-bottom: 16px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: none;
+            /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
         }
 
         .section-title {
