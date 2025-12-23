@@ -4,12 +4,12 @@
   "files": [
     {
       "name": "festivals",
-      "url": "YOUR_GITHUB_RAW_URL/festivals_encrypted.bin",
+      "url": "https://raw.githubusercontent.com/SoumikBhatt/content_hindu_app/main/encrypted_data/festivals_encrypted.bin",
       "sizeBytes": 3757040
     },
     {
       "name": "gita",
-      "url": "YOUR_GITHUB_RAW_URL/gita_encrypted.bin",
+      "url": "https://raw.githubusercontent.com/SoumikBhatt/content_hindu_app/main/encrypted_data/gita_encrypted.bin",
       "sizeBytes": 2242240
     }
   ]
