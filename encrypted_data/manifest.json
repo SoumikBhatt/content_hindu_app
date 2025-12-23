@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "lastUpdated": "2025-12-24T01:50:53.294352",
+  "files": [
+    {
+      "name": "festivals",
+      "url": "YOUR_GITHUB_RAW_URL/festivals_encrypted.bin",
+      "sizeBytes": 3757040
+    },
+    {
+      "name": "gita",
+      "url": "YOUR_GITHUB_RAW_URL/gita_encrypted.bin",
+      "sizeBytes": 2242240
+    }
+  ]
+}
