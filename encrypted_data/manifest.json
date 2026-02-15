@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2025-12-24T01:50:53.294352",
+  "lastUpdated": "2026-02-16T00:15:40.528594",
   "files": [
     {
       "name": "festivals",
@@ -10,7 +10,7 @@
     {
       "name": "gita",
       "url": "https://raw.githubusercontent.com/SoumikBhatt/content_hindu_app/main/encrypted_data/gita_encrypted.bin",
-      "sizeBytes": 2242240
+      "sizeBytes": 2041872
     }
   ]
 }
